@@ -8,8 +8,7 @@ class Board
   
   def replace_var(position,token)   
     @remval.delete(@board[position])  
-    @board[position] = token
-    
+    @board[position] = token 
   end
 
   def rem_nums
@@ -56,6 +55,14 @@ end
  
  def full? 
   @board.all?{|token| token == "x" || token =="o"} 
- end
- 
+ end 
 end 
+
+
+class Logic
+def initialize
+  @player_1 = "player_1"
+  @player_2 = "player_2"
+  @board = Board.new 
+end
+end
