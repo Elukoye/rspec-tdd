@@ -11,7 +11,7 @@ TDD is going to be performed on  Ruby tic-tac-toe by:
 1. Original project specifications can be found at:
  https://www.theodinproject.com/courses/ruby-programming/lessons/testing-your-ruby-code
 
-###### Collaborators
+### Collaborators
 @IBUNHABIBU and @Elukoye 
 
 Clone or Download the project at :
