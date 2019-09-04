@@ -15,4 +15,4 @@ TDD is going to be performed on  Ruby tic-tac-toe by:
 @IBUNHABIBU and @Elukoye 
 
 Clone or Download the project at :
-https://github.com/Elukoye/rspec-tdd.git - automatic!
+https://github.com/Elukoye/rspec-tdd.git 
