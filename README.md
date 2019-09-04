@@ -1,14 +1,18 @@
-# rspec-tdd 
+# TESING TIC-TAC-TOE WITH RSpec
 
 [Collaborative Project]
 
-# Project Description
+##  Project Description
 This is project focuses on practising  TDD (Test Driven Development).
-TDD is going to be performed on two previous projects ; Enumerables and Ruby tic-tac-toe
-You can find the original project specification at: https://www.theodinproject.com/courses/ruby-programming/lessons/testing-your-ruby-code
+TDD is going to be performed on  Ruby tic-tac-toe by:
+1. Initiating the project folder with a rspec --init command.
+1. Creating  _spec.rb files where the tests will be performed.
+1. Each method will have its behaviour tested.
+1. Original project specifications can be found at:
+ https://www.theodinproject.com/courses/ruby-programming/lessons/testing-your-ruby-code
 
-#Collaborators
-IbUNHABIBU and Elukoye 
+###### Collaborators
+@IBUNHABIBU and @Elukoye 
 
-Download the project at :
-https://github.com/Elukoye/rspec-tdd.git
+Clone or Download the project at :
+https://github.com/Elukoye/rspec-tdd.git - automatic!
