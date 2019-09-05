@@ -6,7 +6,8 @@ class Logic
     @player_2 = "player_2"
     @board = Board.new 
   end
-
+  
+  
   def game_start
     puts "Welcome to TIC-TAC-TOE"
     puts " Player one input name: "
@@ -39,7 +40,7 @@ class Logic
       @board.display
   end 
 
-  def switchplayer(c_p)
+  def switch_player(c_p)
     returnvar=''
     if   c_p == @player_1
         returnvar = @player_2
@@ -53,7 +54,7 @@ class Logic
     game_start 
     c_player = @player_2   
     until false do
-       c_player = switchplayer(c_player)
+       c_player = switch_player(c_player)
        take_turns(c_player)       
        break if @board.win? || @board.full?       
           
@@ -74,5 +75,3 @@ class Logic
 
 end
 
-game=Logic.new
-game.game_loop

@@ -24,6 +24,10 @@ class Board
     end
   end
 
+  def board
+    @board
+  end
+
 def position_taken?(position)
   @board[position - 1] == "x" || @board[position - 1] == "o"
 end
@@ -59,10 +63,3 @@ end
 end 
 
 
-class Logic
-def initialize
-  @player_1 = "player_1"
-  @player_2 = "player_2"
-  @board = Board.new 
-end
-end

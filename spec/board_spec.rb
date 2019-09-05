@@ -1,51 +1,49 @@
 require './lib/board.rb'
 
 RSpec.describe Board do
-  describe '#initialize' do
 
-    let(:board){(1..9).to_a}
-    it 'creates a new board with an array of 1-9 elements ' do
-     expect(board).to eql([1,2,3,4,5,6,7,8,9])
-    end  
+  let(:board){@board = Board.new}
+
+  describe '#display' do
+    output = 1..9
+    it 'displays the board ' do
+     expect(board.display).to eql(output)
+    end   
   end 
 
-  
-  describe '#winner' do
-
-    let(:winner){@winner = nil}
-    it 'sets winner value to nil' do 
-      expect(winner).to eql(nil)
+  describe '#position_taken?' do 
+    let(:board){@board = Board.new}
+    it 'checks if there is space on the board' do
+      expect(board.position_taken?(1)).to eql(false)
     end
   end
 
-describe '#win?' do
-
-  let(:win_combination){win_combination = [[0,1,2],[3,4,5],[6,7,8]] }
-  it 'checks win combination on board' do 
-    expect(win_combination).to eql([[0,1,2],[3,4,5],[6,7,8]])
+  describe '#win?' do
+    let(:board){Board.new} 
+    it 'checks for win on board' do
+      expect(board.win?).to be false
+    end
   end
-end 
+  
+  describe '#full?' do
+     let(:board){Board.new}
+     it 'checks if board is full' do
+      expect(board.full?).to eql(false)
+    end
+  end 
 
-describe '#full?' do 
-
-  let(:board){ @board = ['x','o','x','o','x','o','x','o','x']}
-  it 'checks if all board positions are taken' do 
-    expect(board).to eql( ['x','o','x','o','x','o','x','o','x'])
-  end
-end 
-
-describe '#position_taken?' do
-   position = 0
-   board = ['x',2,3,4,5,6,7,8,9]
-   
-  let (:board){board[position] == 'x'} 
-  it 'checks whether board position is occupied' do
-    expect(board[position]).to eql('x')
-  end
+  describe '#replace_var' do
+    let(:board){Board.new}
+    it 'replaces position with token on the board' do
+      expect(board.replace_var(1,'x')).to eql('x')
+    end
+  end 
 end
+  
 
 
-end 
+
+
 
 
 
