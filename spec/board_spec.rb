@@ -2,7 +2,7 @@ require './lib/board.rb'
 
 RSpec.describe Board do
 
-  let(:board){@board = Board.new}
+  let(:board){Board.new}
 
   describe '#display' do
     output = 1..9
