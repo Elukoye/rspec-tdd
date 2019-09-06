@@ -1,5 +1,5 @@
 require './lib/board.rb'
-
+# tests for board methods
 RSpec.describe Board do
 
   let(:board){Board.new}
