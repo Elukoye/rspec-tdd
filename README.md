@@ -1,4 +1,5 @@
 # TESING TIC-TAC-TOE WITH RSpec
+![Peek 2020-03-05 14-42](https://user-images.githubusercontent.com/46542515/80396451-54230880-88bd-11ea-8722-0112ea4b4465.gif)
 
 [Collaborative Project]
 
