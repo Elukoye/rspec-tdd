@@ -1,7 +1,5 @@
 # TESING TIC-TAC-TOE WITH RSpec
-![Peek 2020-03-13 13-58 (1)](https://user-images.githubusercontent.com/46542515/80396769-ceec2380-88bd-11ea-93f2-4448b8a921b6.gif)
-
-[Collaborative Project]
+![Peek 2020-03-05 14-42](https://user-images.githubusercontent.com/46542515/80512170-c2cb9900-8985-11ea-979f-7e3fe3f18baa.gif)
 
 ##  Project Description
 This is project focuses on practising  TDD (Test Driven Development).
